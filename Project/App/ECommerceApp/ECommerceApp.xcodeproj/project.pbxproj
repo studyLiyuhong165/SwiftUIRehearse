@@ -1,0 +1,762 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F21548828228EC5006BA4ED /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F21548728228EC5006BA4ED /* Tests_iOS.swift */; };
+		7F21548A28228EC5006BA4ED /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F21548928228EC5006BA4ED /* Tests_iOSLaunchTests.swift */; };
+		7F21549428228EC5006BA4ED /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F21549328228EC5006BA4ED /* Tests_macOS.swift */; };
+		7F21549628228EC5006BA4ED /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F21549528228EC5006BA4ED /* Tests_macOSLaunchTests.swift */; };
+		7F21549728228EC5006BA4ED /* ECommerceAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F21546F28228EC2006BA4ED /* ECommerceAppApp.swift */; };
+		7F21549828228EC5006BA4ED /* ECommerceAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F21546F28228EC2006BA4ED /* ECommerceAppApp.swift */; };
+		7F21549928228EC5006BA4ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F21547028228EC2006BA4ED /* ContentView.swift */; };
+		7F21549A28228EC5006BA4ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F21547028228EC2006BA4ED /* ContentView.swift */; };
+		7F21549B28228EC5006BA4ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F21547128228EC5006BA4ED /* Assets.xcassets */; };
+		7F21549C28228EC5006BA4ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F21547128228EC5006BA4ED /* Assets.xcassets */; };
+		7F2154B928228F15006BA4ED /* Raleway-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7F2154B628228F15006BA4ED /* Raleway-SemiBold.ttf */; };
+		7F2154BA28228F15006BA4ED /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7F2154B728228F15006BA4ED /* Raleway-Regular.ttf */; };
+		7F2154BB28228F15006BA4ED /* Raleway-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7F2154B828228F15006BA4ED /* Raleway-Bold.ttf */; };
+		7F2154BF2822909C006BA4ED /* OnBoardingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2154BE2822909C006BA4ED /* OnBoardingPage.swift */; };
+		7FE5170728229E1700D262DF /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE5170628229E1700D262DF /* LoginPage.swift */; };
+		7FE5170A28229E2D00D262DF /* LoginPageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE5170928229E2D00D262DF /* LoginPageModel.swift */; };
+		7FE5170C2822A9D600D262DF /* CustomCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE5170B2822A9D600D262DF /* CustomCorners.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F21548428228EC5006BA4ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F21546A28228EC2006BA4ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F21547528228EC5006BA4ED;
+			remoteInfo = "ECommerceApp (iOS)";
+		};
+		7F21549028228EC5006BA4ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F21546A28228EC2006BA4ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F21547B28228EC5006BA4ED;
+			remoteInfo = "ECommerceApp (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7F21546F28228EC2006BA4ED /* ECommerceAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECommerceAppApp.swift; sourceTree = "<group>"; };
+		7F21547028228EC2006BA4ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7F21547128228EC5006BA4ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F21547628228EC5006BA4ED /* ECommerceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ECommerceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F21547C28228EC5006BA4ED /* ECommerceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ECommerceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F21547E28228EC5006BA4ED /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		7F21548328228EC5006BA4ED /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F21548728228EC5006BA4ED /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		7F21548928228EC5006BA4ED /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		7F21548F28228EC5006BA4ED /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F21549328228EC5006BA4ED /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		7F21549528228EC5006BA4ED /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		7F2154B628228F15006BA4ED /* Raleway-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-SemiBold.ttf"; sourceTree = "<group>"; };
+		7F2154B728228F15006BA4ED /* Raleway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Regular.ttf"; sourceTree = "<group>"; };
+		7F2154B828228F15006BA4ED /* Raleway-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Bold.ttf"; sourceTree = "<group>"; };
+		7F2154BC28228F85006BA4ED /* ECommerceApp--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "ECommerceApp--iOS--Info.plist"; sourceTree = "<group>"; };
+		7F2154BE2822909C006BA4ED /* OnBoardingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingPage.swift; sourceTree = "<group>"; };
+		7FE5170628229E1700D262DF /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
+		7FE5170928229E2D00D262DF /* LoginPageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageModel.swift; sourceTree = "<group>"; };
+		7FE5170B2822A9D600D262DF /* CustomCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCorners.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F21547328228EC5006BA4ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F21547928228EC5006BA4ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F21548028228EC5006BA4ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F21548C28228EC5006BA4ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F21546928228EC2006BA4ED = {
+			isa = PBXGroup;
+			children = (
+				7F2154BC28228F85006BA4ED /* ECommerceApp--iOS--Info.plist */,
+				7F21546E28228EC2006BA4ED /* Shared */,
+				7F21547D28228EC5006BA4ED /* macOS */,
+				7F21548628228EC5006BA4ED /* Tests iOS */,
+				7F21549228228EC5006BA4ED /* Tests macOS */,
+				7F21547728228EC5006BA4ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F21546E28228EC2006BA4ED /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				7FE5170828229E1B00D262DF /* ViewModel */,
+				7F2154BD28229085006BA4ED /* View */,
+				7F2154B528228F15006BA4ED /* Fonts */,
+				7F21546F28228EC2006BA4ED /* ECommerceAppApp.swift */,
+				7F21547028228EC2006BA4ED /* ContentView.swift */,
+				7F21547128228EC5006BA4ED /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		7F21547728228EC5006BA4ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F21547628228EC5006BA4ED /* ECommerceApp.app */,
+				7F21547C28228EC5006BA4ED /* ECommerceApp.app */,
+				7F21548328228EC5006BA4ED /* Tests iOS.xctest */,
+				7F21548F28228EC5006BA4ED /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F21547D28228EC5006BA4ED /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				7F21547E28228EC5006BA4ED /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		7F21548628228EC5006BA4ED /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7F21548728228EC5006BA4ED /* Tests_iOS.swift */,
+				7F21548928228EC5006BA4ED /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		7F21549228228EC5006BA4ED /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				7F21549328228EC5006BA4ED /* Tests_macOS.swift */,
+				7F21549528228EC5006BA4ED /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		7F2154B528228F15006BA4ED /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7F2154B628228F15006BA4ED /* Raleway-SemiBold.ttf */,
+				7F2154B728228F15006BA4ED /* Raleway-Regular.ttf */,
+				7F2154B828228F15006BA4ED /* Raleway-Bold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		7F2154BD28229085006BA4ED /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7F2154BE2822909C006BA4ED /* OnBoardingPage.swift */,
+				7FE5170628229E1700D262DF /* LoginPage.swift */,
+				7FE5170B2822A9D600D262DF /* CustomCorners.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7FE5170828229E1B00D262DF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7FE5170928229E2D00D262DF /* LoginPageModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F21547528228EC5006BA4ED /* ECommerceApp (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F21549F28228EC5006BA4ED /* Build configuration list for PBXNativeTarget "ECommerceApp (iOS)" */;
+			buildPhases = (
+				7F21547228228EC5006BA4ED /* Sources */,
+				7F21547328228EC5006BA4ED /* Frameworks */,
+				7F21547428228EC5006BA4ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ECommerceApp (iOS)";
+			productName = "ECommerceApp (iOS)";
+			productReference = 7F21547628228EC5006BA4ED /* ECommerceApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F21547B28228EC5006BA4ED /* ECommerceApp (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F2154A228228EC5006BA4ED /* Build configuration list for PBXNativeTarget "ECommerceApp (macOS)" */;
+			buildPhases = (
+				7F21547828228EC5006BA4ED /* Sources */,
+				7F21547928228EC5006BA4ED /* Frameworks */,
+				7F21547A28228EC5006BA4ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ECommerceApp (macOS)";
+			productName = "ECommerceApp (macOS)";
+			productReference = 7F21547C28228EC5006BA4ED /* ECommerceApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F21548228228EC5006BA4ED /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F2154A528228EC5006BA4ED /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				7F21547F28228EC5006BA4ED /* Sources */,
+				7F21548028228EC5006BA4ED /* Frameworks */,
+				7F21548128228EC5006BA4ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F21548528228EC5006BA4ED /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 7F21548328228EC5006BA4ED /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		7F21548E28228EC5006BA4ED /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F2154A828228EC5006BA4ED /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				7F21548B28228EC5006BA4ED /* Sources */,
+				7F21548C28228EC5006BA4ED /* Frameworks */,
+				7F21548D28228EC5006BA4ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F21549128228EC5006BA4ED /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 7F21548F28228EC5006BA4ED /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F21546A28228EC2006BA4ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					7F21547528228EC5006BA4ED = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					7F21547B28228EC5006BA4ED = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					7F21548228228EC5006BA4ED = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 7F21547528228EC5006BA4ED;
+					};
+					7F21548E28228EC5006BA4ED = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 7F21547B28228EC5006BA4ED;
+					};
+				};
+			};
+			buildConfigurationList = 7F21546D28228EC2006BA4ED /* Build configuration list for PBXProject "ECommerceApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F21546928228EC2006BA4ED;
+			productRefGroup = 7F21547728228EC5006BA4ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F21547528228EC5006BA4ED /* ECommerceApp (iOS) */,
+				7F21547B28228EC5006BA4ED /* ECommerceApp (macOS) */,
+				7F21548228228EC5006BA4ED /* Tests iOS */,
+				7F21548E28228EC5006BA4ED /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F21547428228EC5006BA4ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F21549B28228EC5006BA4ED /* Assets.xcassets in Resources */,
+				7F2154BA28228F15006BA4ED /* Raleway-Regular.ttf in Resources */,
+				7F2154B928228F15006BA4ED /* Raleway-SemiBold.ttf in Resources */,
+				7F2154BB28228F15006BA4ED /* Raleway-Bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F21547A28228EC5006BA4ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F21549C28228EC5006BA4ED /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F21548128228EC5006BA4ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F21548D28228EC5006BA4ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F21547228228EC5006BA4ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FE5170728229E1700D262DF /* LoginPage.swift in Sources */,
+				7FE5170C2822A9D600D262DF /* CustomCorners.swift in Sources */,
+				7FE5170A28229E2D00D262DF /* LoginPageModel.swift in Sources */,
+				7F21549928228EC5006BA4ED /* ContentView.swift in Sources */,
+				7F2154BF2822909C006BA4ED /* OnBoardingPage.swift in Sources */,
+				7F21549728228EC5006BA4ED /* ECommerceAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F21547828228EC5006BA4ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F21549A28228EC5006BA4ED /* ContentView.swift in Sources */,
+				7F21549828228EC5006BA4ED /* ECommerceAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F21547F28228EC5006BA4ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F21548A28228EC5006BA4ED /* Tests_iOSLaunchTests.swift in Sources */,
+				7F21548828228EC5006BA4ED /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F21548B28228EC5006BA4ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F21549628228EC5006BA4ED /* Tests_macOSLaunchTests.swift in Sources */,
+				7F21549428228EC5006BA4ED /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F21548528228EC5006BA4ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F21547528228EC5006BA4ED /* ECommerceApp (iOS) */;
+			targetProxy = 7F21548428228EC5006BA4ED /* PBXContainerItemProxy */;
+		};
+		7F21549128228EC5006BA4ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F21547B28228EC5006BA4ED /* ECommerceApp (macOS) */;
+			targetProxy = 7F21549028228EC5006BA4ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7F21549D28228EC5006BA4ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7F21549E28228EC5006BA4ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		7F2154A028228EC5006BA4ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 78M664753R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ECommerceApp--iOS--Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = work.yuye165.www.ECommerceApp;
+				PRODUCT_NAME = ECommerceApp;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F2154A128228EC5006BA4ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 78M664753R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ECommerceApp--iOS--Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = work.yuye165.www.ECommerceApp;
+				PRODUCT_NAME = ECommerceApp;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F2154A328228EC5006BA4ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 78M664753R;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = work.yuye165.www.ECommerceApp;
+				PRODUCT_NAME = ECommerceApp;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7F2154A428228EC5006BA4ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 78M664753R;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = work.yuye165.www.ECommerceApp;
+				PRODUCT_NAME = ECommerceApp;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		7F2154A628228EC5006BA4ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 78M664753R;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "work.yuye165.www.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ECommerceApp (iOS)";
+			};
+			name = Debug;
+		};
+		7F2154A728228EC5006BA4ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 78M664753R;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "work.yuye165.www.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ECommerceApp (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F2154A928228EC5006BA4ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 78M664753R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "work.yuye165.www.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "ECommerceApp (macOS)";
+			};
+			name = Debug;
+		};
+		7F2154AA28228EC5006BA4ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 78M664753R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "work.yuye165.www.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "ECommerceApp (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F21546D28228EC2006BA4ED /* Build configuration list for PBXProject "ECommerceApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F21549D28228EC5006BA4ED /* Debug */,
+				7F21549E28228EC5006BA4ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F21549F28228EC5006BA4ED /* Build configuration list for PBXNativeTarget "ECommerceApp (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F2154A028228EC5006BA4ED /* Debug */,
+				7F2154A128228EC5006BA4ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F2154A228228EC5006BA4ED /* Build configuration list for PBXNativeTarget "ECommerceApp (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F2154A328228EC5006BA4ED /* Debug */,
+				7F2154A428228EC5006BA4ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F2154A528228EC5006BA4ED /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F2154A628228EC5006BA4ED /* Debug */,
+				7F2154A728228EC5006BA4ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F2154A828228EC5006BA4ED /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F2154A928228EC5006BA4ED /* Debug */,
+				7F2154AA28228EC5006BA4ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F21546A28228EC2006BA4ED /* Project object */;
+}
