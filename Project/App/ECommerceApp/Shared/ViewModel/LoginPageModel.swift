@@ -20,6 +20,8 @@ import SwiftUI
  */
 class LoginPageModel : ObservableObject {
     
+
+    
     // Login Properties...
     // 登录属性
     @Published var email : String = ""
@@ -32,16 +34,26 @@ class LoginPageModel : ObservableObject {
     @Published var re_Enter_Password : String = ""
     @Published var showReEnterPassword : Bool = false
 
+    
+    // Log Status ...
+    @AppStorage("log_Status") var log_Status : Bool = false
+
     //Login Call
     // 登录调用
     func Login(){
         // Do Action Here...
         // 在这里做动作…
+        withAnimation {
+            log_Status = true
+        }
     }
     //
     func Register(){
         // Do Action Here...
         // 在这里做动作…
+        withAnimation {
+            log_Status = true
+        }
 
     }
     
