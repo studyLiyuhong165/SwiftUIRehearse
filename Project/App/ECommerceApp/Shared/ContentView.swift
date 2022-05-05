@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     // Log Status..
+    // 日志状态. .
     @AppStorage("log_Status") var log_Status : Bool = false
     var body: some View {
 //        OnBoardingPage()

@@ -36,6 +36,7 @@ class LoginPageModel : ObservableObject {
 
     
     // Log Status ...
+    // 日志状态. .
     @AppStorage("log_Status") var log_Status : Bool = false
 
     //Login Call

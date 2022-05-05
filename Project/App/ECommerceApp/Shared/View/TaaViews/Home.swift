@@ -7,6 +7,16 @@
 
 import SwiftUI
 
+/**
+ 1. 创建搜索框
+ 2. 创建文本
+ 3. 创建滚动选项卡 以及 (抽象)创建选项卡的类别
+ 4. (抽象)创建商品模型
+ 5.创建商品展示卡片
+ 6. 创建查看更多 、以及页面、处理展示
+ 7.判断登录状态 展示不同的页面
+ */
+
 struct Home: View {
     @Namespace var animation
     @StateObject var homeData : HomeViewModel = HomeViewModel()
@@ -57,6 +67,7 @@ struct Home: View {
                 .padding(.top,28)
                 
                 // Products Page ...
+                // 产品页面…
                 ScrollView(.horizontal,showsIndicators: false){
                     HStack(spacing: 25){
                         ForEach(homeData.fillteredProducts) { product in
@@ -102,6 +113,7 @@ struct Home: View {
         .frame(maxWidth:.infinity,maxHeight: .infinity)
         .background(Color("HomeBG"))
         // Updating data whenver tab changes...
+        // 更新数据时标签改变…
         .onChange(of: homeData.productType) { newValue in
             homeData.fillterProductByType()
         }
@@ -197,6 +209,7 @@ struct Home_Previews: PreviewProvider {
 
 
 //// Exteding view to get Screen Bounds....
+/// 扩展视图以获得Screen Bounds....
 //extension View{
 //    func getRect() -> CGRect {
 //        return UIScreen.main.bounds

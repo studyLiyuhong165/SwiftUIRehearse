@@ -9,7 +9,7 @@ import SwiftUI
 
 
 // Product Model ....
-
+// 产品 模型
 struct Product: Identifiable,Hashable {
     var id = UUID().uuidString
     var type: ProductType
@@ -23,7 +23,7 @@ struct Product: Identifiable,Hashable {
 
 
 // Product Types ...
-
+// 产品类型……
 enum ProductType : String, CaseIterable {
     case Wearable = "Wearable"
     case Laptops = "Laptops"
